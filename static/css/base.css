@@ -103,6 +103,22 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+/* --------------------- Boostrap toasts */
+.message-container {
+    position: fixed;
+    top: 90px;
+    right: 125px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
