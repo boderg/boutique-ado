@@ -31,10 +31,20 @@
 }
 
 #payment-form .formcontrol,
-.textinput, 
-#card-element {
+.textinput,
+#card-element,
+select,
+#id_country,
+#id_email,
+select option {
     color: #000;
+    border-radius: 0;
     border: 1px solid #000;
+}
+
+select:invalid,
+select option[value=""] {
+    color: #aab7c4 !important;
     border-radius: 0;
 }
 
