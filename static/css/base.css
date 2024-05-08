@@ -3,11 +3,11 @@ html {
 }
 
 body {
-    background: url(/media/homepage_background_cropped.jpg) no-repeat center center fixed;
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
 }
 
 /* from Bulma */
@@ -24,7 +24,6 @@ body {
 }
 
 .main-logo-link {
-    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -75,13 +74,13 @@ body {
 }
 
 .overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 a.category-badge > span.badge:hover {
@@ -107,11 +106,12 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-/* --------------------- Boostrap toasts */
+/* ------------------------------- bootstrap toasts */
+
 .message-container {
     position: fixed;
-    top: 90px;
-    right: 125px;
+    top: 72px;
+    right: 15px;
     z-index: 99999999999;
 }
 
